@@ -8,7 +8,10 @@ for num in range(1, 21):
     for i in range(1, 21):
         j = num * i
         print('%s X %s: %s!' % (num, i, j))
+        # if num == 11: break
         print('')
-        
+    # if num == 10: break
+    print('')
+    print('')
 print('Multiplication Done')
 print('')
